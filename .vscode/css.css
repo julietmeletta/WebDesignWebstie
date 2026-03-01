@@ -67,6 +67,23 @@ p {
 }
        
 
+.container {
+    display:flex;
+    align-items: center;
+    max-width: 1250px;
+    margin: auto;
+    zoom: 90%; 
+    margin-bottom: -50px;
 
+}
 
+.white-space {
+    margin-top: 20px;
+    margin-right: 700px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 40px;
+}
  
