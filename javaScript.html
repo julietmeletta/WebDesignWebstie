@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Beginner's Guide to Website Design</title>
+        <link rel = "stylesheet" type = "text/css" href = "javaScript.css"/>
+    </head>
+    <body>
+        <span>
+            <span class = "button-container">
+                <span id = "Home" onclick = "window.location.href = 'homePage.html'">Home</span>
+                <span id = "HTML" onclick = "window.location.href = 'HTML.html'">HTML</span>
+                <span id = "CSS" onclick = "window.location.href = 'CSS.html'">CSS</span>
+                <span id = "JavaScript" onclick = "window.location.href = 'javaScript.html'">JavaScript</span>
+                <span id = "Design" onclick = "window.location.href = 'Design.html'">Design</span>
+            </span>
+        </span>
+        <div>
+            <div class = "white-space"> </div>
+            <div class = "container">
+              <div class = "title">
+              <div><h1>JavaScript<br></h1>
+              <h3>The Fundamentals For Web Design</h3></div></div>
+              <img id = "js-img" src = "js-img.jpeg" height = 400px>
+            </div>
+            <div class = "white-space"> </div>
+            <h5>JavaScript is the muscle of a website, it produces action! JavaScript makes the website interactive.
+                For example, this website: its purpose is informational as opposed to interactive, and was written mostly
+                using HTML and CSS. Now, let's quickly review some foundational ideas. </h5>
+            <div class = "white-space"> </div>
+            <h5>Let's get started with declaring variables! Here's how to declare and initialize a variable: </h5><br>
+            <div class = "variableIMG">
+                <img id = "variableEX" src = "variableEX.webp" height = 300></img></div>  
+            <h5>This example is simplified, but you could combine the first two lines by saying const fruit = 'apple', as seen
+                in the third line. You also might have noticed that it says const when declaring the variable. You can use const, 
+                or you can say let fruit = 'apple'. Both work fine. 'apple' is of type String, meaning it is a string of characters.
+                JavaScript has 5 primitive types: Number, String, Boolean, Null, and Undefined. Null and Undefined, while sounding
+                similar, have distinct meanings. Null is the purposeful absence of data, Undefined is something that will be given
+                data, but we haven't given the variable that data yet. That's all you need to know about variables for now!</h5>  
+            <br>
+            <h5>Here's some other concepts that you might want to implement:</h5><br>
+            <h5>Sometimes, you might want to combine Strings to make one longer String. This is an idea called concatenation. There are a
+                couple different ways to do this depending on the context. If you just want to change a String, you can use the += 
+                operator. Ex:</h5>
+                <div class = "operatorEX">
+                    <img id = "operatorEX" src = "ex2.png" height = 100></img>
+                </div>
+            <h5>This will make str equal "Website: pimylifeup.com". As you can see, this combined the Strings to make a singular longer one.</h5><br>
+            <h5>You can also create an object, and give it attributes. See below.</h5>
+            <div class = "operatorEX">
+                 <img id = "boxEX" src = "boxEX.png" height = 100></img>
+            </div>
+            <h5>This creates an object - box - and gives it attributes - color and contents. </h5><br>
+            <h5>JavaScript also has functions. Functions are a set of statements that execute tasks, does calculations, etc. Functions can 
+                be given values(called parameters) and have the ability to return values. Here is an example of a function that takes in two
+                values(the parameters), adds them, and returns the sum:</h5>
+            <div class = "functionEX">
+                    <img id = "functionEX" src = "function1.webp" height = 250></img>
+                </div>
+            <br><h5>Now you know some fundamental concepts of JavaScript! JavaScript, while not necessary for coding a website, can definetly be helpful.
+                In case anything here confused you, or you get stuck with something, or if you're just looking for more information, check out the resources
+                that we've put below. We encourage you to explore our website more and try making a website of your own! Good luck! </h5>
+                <div class = "white-space"> </div>
+                <div class = "resources">
+                    <h3>Check Out These Resources!</h3>
+                </div>
+                <h5><a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript">https://developer.mozilla.org/en-US/docs/Web/JavaScript</a></h5>
+                <h5><a href = "https://javascript.info/">https://javascript.info/</a></h5>
+        </div>  
+    </body>
+</html>

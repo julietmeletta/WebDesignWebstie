@@ -1,0 +1,115 @@
+
+.title {
+    flex: 1;
+}
+
+h1 {
+    font-size: 4rem;
+    padding: 20 px, 50px;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    padding: 20 px, 50px;
+    margin: 20px;
+}
+
+h5 {
+    font-size: 1.2rem;
+    color: #1a296b;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+body {
+    background: white;
+    font-family: helvetica;
+    zoom: 90%;
+}
+
+.button-container {
+    font-size: 1.7rem;
+    color: white;
+    background: #1d2548;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    margin: -10px;
+    gap: 120px;
+}
+
+.container {
+    display:flex;
+    align-items: center;
+    max-width: 1250px;
+    margin: auto;
+    zoom: 90%;
+    margin-bottom: -50px;
+} 
+
+.white-space {
+    margin-top: 20px;
+    margin-right: 700px;
+    background: white;
+     display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 40px;
+}
+
+.variableIMG {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 250px;
+}
+
+.operatorEX {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 250px;
+}
+
+.functionEX {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 250px;
+}
+
+.resources {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#JavaScript {
+    color: rgb(203, 59, 255);
+}
+
+#Home:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#HTML:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#CSS:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#Design:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#JavaScript:hover {
+    color: black;
+    cursor: pointer;
+}
