@@ -1,20 +1,31 @@
-
+body {
+    background-color:white; 
+    font-family: Helvetica;
+}
 
 h1 {
-    font-size: 4rem;
-    display: flex;
-    flex-direction: row;
+    display:flex;
+    flex-direction:row;
     justify-content: center;
-    padding: 20 px, 50px;
-    margin: 20px;
 }
 
-body {
-    background: #ceefec;
-    font-family: helvetica;
+h2 {
+    transform:translate(0px);
+   
 }
 
-.button-container {
+p {
+    transform: translate(5px);
+
+}
+
+.Picture-1 {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+        
+ .button-container {
     font-size: 1.7rem;
     color: white;
     background: #1d2548;
@@ -26,7 +37,7 @@ body {
     gap: 120px;
 }
 
-#Home {
+#CSS {
     color: rgb(203, 59, 255);
 }
 
@@ -54,12 +65,8 @@ body {
     color: black;
     cursor: pointer;
 }
+       
 
-.white-space {
-    margin-top: 20px;
-    background: #ceefec;
-     display: flex;
-    flex-direction: row;
-    justify-content: left;
-    padding: 60px;
-}
+
+
+ 
