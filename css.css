@@ -1,0 +1,34 @@
+body {
+    background-color:#ceefec; 
+    font-family: Helvetica;
+}
+
+h1 {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+h2 {
+    transform:translate(0px);
+   
+}
+
+p {
+    transform: translate(5px);
+
+}
+
+.Picture-1 {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+        
+        
+
+
+
+ 
