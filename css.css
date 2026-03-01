@@ -73,7 +73,9 @@ p {
     max-width: 1250px;
     margin: auto;
     zoom: 90%; 
+    gap: 200px;
     margin-bottom: -50px;
+    margin-left:220px;
 
 }
 
